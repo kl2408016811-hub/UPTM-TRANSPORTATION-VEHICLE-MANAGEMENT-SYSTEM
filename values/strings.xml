@@ -1,0 +1,175 @@
+<resources>
+    <string name="app_name">UPTM Transportation</string>
+    <string name="version">Version 1.0</string>
+
+    <!-- General -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+    <string name="confirm_reject">Confirm reject</string>
+    <string name="confirm_approve">Confirm approve</string>
+    <string name="success">Success</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <!-- Login -->
+    <string name="welcome_back">Welcome Back!</string>
+    <string name="login">LOGIN</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="no_account">Don\'t have an account? </string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="email_required">Email is required</string>
+    <string name="password_required">Password is required</string>
+    <string name="invalid_email">Invalid email format</string>
+    <string name="login_success">Login successful!</string>
+    <string name="login_failed">Login failed</string>
+    <string name="logout_title">Logout</string>
+    <string name="logout_message">Are you sure you want to logout?</string>
+    <string name="logged_out">Logged out</string>
+
+    <!-- Register -->
+    <string name="create_account">Create Account</string>
+    <string name="full_name">Full Name</string>
+    <string name="username">Username</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="gender">Gender</string>
+    <string name="register_as">Register as:</string>
+    <string name="student">Student</string>
+    <string name="admin">Admin</string>
+    <string name="password_criteria">Minimum 6 characters • At least 1 uppercase • At least 1 number • At least 1 symbol (@#$%)</string>
+    <string name="confirm_password">Confirm Password</string>
+
+    <!-- Forgot Password -->
+    <string name="forgot_password_title">Forgot Password?</string>
+    <string name="forgot_password_message">Enter your email address and we\'ll send you a link to reset your password.</string>
+    <string name="send_instructions">SEND INSTRUCTIONS</string>
+    <string name="back_to_login">Back to Login</string>
+    <string name="reset_email_sent">Password reset email sent to %s</string>
+
+    <!-- Student Main -->
+    <string name="student_services">Student Services</string>
+    <string name="calendar">Calendar</string>
+    <string name="vehicle_catalog">Vehicle Catalog</string>
+    <string name="make_booking">Make Booking</string>
+    <string name="my_booking">My Booking</string>
+    <string name="profile">Profile</string>
+    <string name="logout">Logout</string>
+
+    <!-- Admin Main -->
+    <string name="admin_services">Admin Menu</string>
+    <string name="manage_bookings">Manage Bookings</string>
+    <string name="add_vehicle">Add Vehicle</string>
+    <string name="manage_calendar">Manage Calendar</string>
+    <string name="manage_booking">Manage Booking</string>
+    <string name="total">Total</string>
+    <string name="pending">Pending</string>
+    <string name="approved">Approved</string>
+    <string name="rejected">Rejected</string>
+    <string name="all">All</string>
+
+    <!-- Booking -->
+    <string name="select_vehicle">Select Vehicle</string>
+    <string name="select_date">Select Date</string>
+    <string name="select_time">Select Time</string>
+    <string name="price_format">RM %.2f</string>
+    <string name="seats_label">Seats: %s</string>
+    <string name="no_seats">No seats selected</string>
+    <string name="select_seats">Select Seats</string>
+    <string name="select_seats_prompt">Please select seats</string>
+    <string name="max_seats">Maximum 4 seats only</string>
+    <string name="confirm_seats">Confirm Seats</string>
+    <string name="confirm_seats_message">Selected seats: %s\n\nProceed?</string>
+    <string name="booking_submitted">Booking submitted! Please wait for admin approval.</string>
+    <string name="booking_cancelled">Booking cancelled</string>
+    <string name="confirm_cancel">Confirm cancel</string>
+    <string name="select_vehicle_prompt">Please select a vehicle</string>
+    <string name="select_date_prompt">Please select date</string>
+    <string name="confirm_booking">Confirm Booking</string>
+    <string name="confirm_booking_message">Proceed with booking?</string>
+    <string name="no_vehicles">No vehicles available</string>
+
+    <!-- Profile -->
+    <string name="my_profile">My Profile</string>
+    <string name="change_photo">Change Photo</string>
+    <string name="change_password">Change Password</string>
+    <string name="current_password">Current Password</string>
+    <string name="new_password">New Password</string>
+    <string name="save_changes">SAVE CHANGES</string>
+    <string name="fullname_required">Full name required</string>
+    <string name="username_required">Username required</string>
+    <string name="current_password_required">Current password required</string>
+    <string name="new_password_required">New password required</string>
+    <string name="new_password_length">Password must be at least 6 characters</string>
+    <string name="password_mismatch">Passwords do not match</string>
+    <string name="profile_saved">Profile saved successfully</string>
+    <string name="role">Role</string>
+    <string name="language">Language</string>
+    <string name="select_language">Select Language</string>
+    <string name="language_changed">Language changed. Restarting app...</string>
+
+    <!-- Vehicles -->
+    <string name="vehicle_spinner_format">%s %s (%s)</string>
+    <string name="vehicle_name_format">%s %s</string>
+    <string name="vehicle_info_format">%s • %d seats</string>
+    <string name="search_vehicle">Search vehicle...</string>
+    <string name="sort_by">Sort by</string>
+    <string name="filter">Filter</string>
+    <string name="all_vehicles">All Vehicles</string>
+    <string name="bus">Bus</string>
+    <string name="car">Car</string>
+    <string name="available_only">Available Only</string>
+    <string name="available">Available</string>
+    <string name="not_available">Not Available</string>
+    <string name="sort_price_low_high">Price: Low to High</string>
+    <string name="sort_price_high_low">Price: High to Low</string>
+    <string name="sort_capacity">Capacity</string>
+    <string name="sort_name">Name</string>
+    <string name="bus_only">Bus Only</string>
+    <string name="car_only">Car Only</string>
+    <string name="seats_count">%d seats</string>
+    <string name="no_seats_for_car">No seats for car</string>
+
+    <!-- Add Vehicle -->
+    <string name="seat_capacity_hint_bus">e.g., 30</string>
+    <string name="seat_capacity_hint_car">e.g., 4</string>
+    <string name="seat_layout_bus">* Seat layout: 10 rows x 3 seats</string>
+    <string name="seat_layout_car">* No seat layout for cars</string>
+    <string name="brand_required">Brand is required</string>
+    <string name="plate_required">Plate number is required</string>
+    <string name="capacity_required">Seat capacity is required</string>
+    <string name="capacity_invalid">Invalid capacity</string>
+    <string name="price_required">Price is required</string>
+    <string name="price_invalid">Invalid price</string>
+    <string name="vehicle_added">Vehicle added successfully!</string>
+
+    <!-- Events -->
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="view_details">View Details</string>
+    <string name="no_events">No events found</string>
+
+    <!-- Notifications -->
+    <string name="booking_approved_title">Booking Approved! 🎉</string>
+    <string name="booking_approved_message">Your booking for %s has been approved.</string>
+    <string name="booking_rejected_title">Booking Rejected ❌</string>
+    <string name="booking_rejected_message">Your booking for %s has been rejected.</string>
+    <string name="booking_updated_title">Booking Updated</string>
+    <string name="booking_updated_message">Your booking for %s has been updated.</string>
+    <string name="view">View</string>
+    <string name="later">Later</string>
+
+    <!-- Empty States -->
+    <string name="no_bookings">No bookings found</string>
+    <string name="your_bookings">Your bookings will appear here</string>
+    <string name="bookings_will_appear">Bookings will appear here</string>
+
+    <!-- Distance & Price -->
+    <string name="distance_format">%.1f km</string>
+    <string name="selected_seats">Selected: %s</string>
+    <string name="selected_seats_display">%s</string>
+    <string name="none">None</string>
+
+
+
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="uptm_red">#E31B23</color>
+    <color name="uptm_blue">#0033A0</color>
+    <color name="uptm_light_pink">#FFB6C1</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray_light">#F5F5F5</color>
+    <color name="gray">#808080</color>
+    <color name="green_available">#4CAF50</color>
+    <color name="yellow_pending">#FFC107</color>
+    <color name="red_booked">#F44336</color>
+    <color name="neutral_medium">#666666</color>
+    <color name="pastel_pink_light">#FFE4E1</color>
+    <color name="pastel_pink">#FFD1DC</color>
+    <color name="pastel_blue_light">#E6F0FA</color>
+    <color name="pastel_blue">#B5E2FF</color>
+    <color name="pastel_lavender">#F8F0FF</color>
+    <color name="circle_pastel_pink">#FFD1DC</color>
+    <color name="circle_white">#FFFFFF</color>
+</resources>
