@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardVehicle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="12dp"
+    android:layout_marginVertical="6dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="4dp"
+    app:cardBackgroundColor="@color/white">
+
+    <LinearLayout
+        android:id="@+id/layoutVehicleContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <!-- Baris 1: Gambar -->
+        <ImageView
+            android:id="@+id/ivVehicleImage"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_bus"
+            android:background="#F0F0F0"
+            android:clickable="false"
+            android:focusable="false"/>
+
+        <!-- Baris 2: Nama Vehicle + Type + Status -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="8dp">
+
+            <!-- ✅ FIX: Vehicle Name - Hitam pekat -->
+            <TextView
+                android:id="@+id/tvVehicleName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="UPTM"
+                android:textColor="#1A1A1A"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tvType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:paddingHorizontal="8dp"
+                android:paddingVertical="2dp"
+                android:text="TYPE"
+                android:textColor="@color/white"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <!-- ✅ FIX: Status Badge - Hijau gelap -->
+            <TextView
+                android:id="@+id/tvStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="28dp"
+                android:paddingHorizontal="12dp"
+                android:gravity="center"
+                android:text="Available"
+                android:textColor="@color/white"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:background="@drawable/badge_available"/>
+        </LinearLayout>
+
+        <!-- Baris 3: Plate Number + Price -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="2dp">
+
+            <!-- ✅ FIX: Plate Number - Kelabu gelap -->
+            <TextView
+                android:id="@+id/tvPlateNumber"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="wr5678q"
+                android:textColor="#4A4A4A"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:id="@+id/tvPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RM 2.50/km"
+                android:textColor="#E31B23"
+                android:textSize="14sp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <!-- Baris 4: Capacity -->
+        <!-- ✅ FIX: Capacity - Kelabu gelap -->
+        <TextView
+            android:id="@+id/tvCapacity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="30 seats"
+            android:textColor="#4A4A4A"
+            android:textSize="12sp"
+            android:layout_marginTop="8dp"/>
+
+        <!-- Baris 5: Seat Availability -->
+        <TextView
+            android:id="@+id/tvSeatAvailability"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="12 available • 2 pending • 5 booked"
+            android:textColor="#4A4A4A"
+            android:textSize="11sp"
+            android:layout_marginTop="4dp"
+            android:visibility="gone"/>
+
+        <!-- Baris 6: View Seats Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnViewSeats"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="12dp"
+            android:text="VIEW SEATS"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:cornerRadius="20dp"
+            android:backgroundTint="#0033A0"
+            android:textColor="@color/white"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
